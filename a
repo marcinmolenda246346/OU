@@ -1,7 +1,9 @@
-echo "# OU" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/marcinmolenda246346/OU.git
-git push -u origin main
+#include <iostream>
+int Policz (int a, int b) {
+ return a+b;
+}
+int main() {
+ std::cout << "Hello, World!" << std::endl;
+ std::cout <<"W pierwszym branchu; 2+3=" << Policz(2,3) << std::endl;
+ return 0;
+}
